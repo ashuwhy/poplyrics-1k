@@ -7,7 +7,7 @@ This dataset contains up to 1,000 pop songs with their lyrics, songwriters, genr
 
 - **track_name**: Name of the song.
 - **album**: Album name.
-- **release_date**: Release date of the song.
+- **release_date**: The release date of the song.
 - **song_length**: Duration of the song.
 - **popularity**: Popularity score from Spotify.
 - **songwriters**: List of songwriters.
