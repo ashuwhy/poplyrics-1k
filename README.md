@@ -1,17 +1,24 @@
-
 # Pop Lyrics Dataset
+
+<iframe
+  src="https://huggingface.co/datasets/ashuwhy/poplyrics-1k/embed/viewer/default/train"
+  frameborder="0"
+  width="100%"
+  height="560px"
+></iframe>
 
 This dataset contains up to 1,000 pop songs with their lyrics, songwriters, genres, and other relevant metadata. The data was collected from Spotify and Genius.
 
-# Hugging Face
+## Hugging Face
 
 - Dataset: [ashuwhy/poplyrics-1k](https://huggingface.co/datasets/ashuwhy/poplyrics-1k)
 - Model: [ashuwhy/llama3.2-poplyrics-1k](https://huggingface.co/ashuwhy/llama3.2-poplyrics-1k)
+
 ## Dataset Structure
 
 - **track_name**: Name of the song.
 - **album**: Album name.
-- **release_date**: The release date of the song.
+- **release_date**: Release date of the song.
 - **song_length**: Duration of the song.
 - **popularity**: Popularity score from Spotify.
 - **songwriters**: List of songwriters.
@@ -23,6 +30,15 @@ This dataset contains up to 1,000 pop songs with their lyrics, songwriters, genr
 
 You can use this dataset for various NLP tasks such as sentiment analysis, lyric generation, or genre classification.
 
+### Example Usage
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("ashuwhy/poplyrics-1k", split="train")
+print(dataset)
+```
+
 ## Acknowledgements
 
 - [Spotify](https://www.spotify.com) for providing track information.
@@ -32,4 +48,3 @@ You can use this dataset for various NLP tasks such as sentiment analysis, lyric
 ## License
 
 This dataset is licensed under the [MIT License](LICENSE).
-    
