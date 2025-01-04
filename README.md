@@ -1,8 +1,12 @@
 
-# Pop Lyrics Dataset (Up to 1,000 Songs)
+# Pop Lyrics Dataset
 
 This dataset contains up to 1,000 pop songs with their lyrics, songwriters, genres, and other relevant metadata. The data was collected from Spotify and Genius.
 
+# Hugging Face
+
+- Dataset: [ashuwhy/poplyrics-1k](https://huggingface.co/datasets/ashuwhy/poplyrics-1k)
+- Model: [ashuwhy/llama3.2-poplyrics-1k](https://huggingface.co/ashuwhy/llama3.2-poplyrics-1k)
 ## Dataset Structure
 
 - **track_name**: Name of the song.
