@@ -6,6 +6,8 @@
 
 A curated collection of 1,000 popular songs with rich metadata, designed for NLP research and music analysis. Hosted on Hugging Face Datasets.
 
+[Dataset Veiwer](https://huggingface.co/datasets/ashuwhy/poplyrics-1k/viewer/default/train)
+
 ## Overview
 A structured dataset containing:
 - **1000 songs** spanning multiple decades and genres
@@ -82,15 +84,3 @@ git push origin feature/your-contribution
 ## License
 - **MIT Licensed** - Free for academic/commercial use with attribution
 - **Ethical Note**: Lyrics may contain sensitive content - users assume responsibility for applications
-
-## Resources
-- [Dataset Viewer](https://huggingface.co/datasets/ashuwhy/poplyrics-1k)
-
----
-
-This README integrates best practices from multiple sources, featuring:
-- Clear navigation with badge indicators
-- Structured code examples
-- Contribution guidelines
-- License transparency
-- Multiple access points for different user types    
