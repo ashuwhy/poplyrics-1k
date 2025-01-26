@@ -1,5 +1,5 @@
 
-# Pop Lyrics Dataset (Up to 1,000 Songs)
+# Pop Lyrics Dataset 
 
 This dataset contains up to 1,000 pop songs with their lyrics, songwriters, genres, and other relevant metadata. The data was collected from Spotify and Genius.
 
