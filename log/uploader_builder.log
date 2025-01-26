@@ -1,9 +1,0 @@
-2024-10-14 16:52:49,510 - ERROR - Failed to upload to Hugging Face: HfApi.create_repo() got an unexpected keyword argument 'name'
-2024-10-14 16:53:35,075 - ERROR - Failed to upload to Hugging Face: (Request ID: Root=1-670cff36-65db7a5418468cd947dd5dd6;e15728d7-5b1c-4804-97f2-15216f0aeec1)
-
-403 Forbidden: You don't have the rights to create a model under the namespace "alexshcer".
-Cannot access content at: https://huggingface.co/api/repos/create.
-Make sure your token has the correct permissions.
-2024-10-14 16:54:24,434 - INFO - Created or verified existence of Hugging Face repository: alexshcer/poplyric-1k
-2024-10-14 16:54:27,722 - INFO - Uploaded JSON dataset to Hugging Face repository: alexshcer/poplyric-1k
-2024-10-14 16:54:29,293 - INFO - Uploaded README.md to Hugging Face repository: alexshcer/poplyric-1k
